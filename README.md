@@ -7,3 +7,5 @@
 ## Day 3: Counter II
 
 ## Day 4: Apply Transform Over Each Element in Array
+
+## Day 5: Filter Elements from Array
