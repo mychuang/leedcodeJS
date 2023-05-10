@@ -1,5 +1,4 @@
 var reduce = function (nums, fn, init) {
-    //完成此處
     let res = init;
     for (let i = 0; i < nums.length; i++) {
         res = fn(res, nums[i]);
@@ -17,4 +16,21 @@ console.log(
 var fn2 = function sum(accum, curr) { return accum + curr * curr; }
 console.log(
     reduce([1, 2, 3, 4], fn2, 100) 
+); //130
+
+
+// ************  箭頭函式 *************
+var reduce2 = function (nums, fn, init) {
+    nums.forEach(element => init = fn(init, element));
+    return init;
+};
+
+//Example 1:
+console.log(
+    reduce2([1, 2, 3, 4], fn1, 0) 
+); //10
+
+//Example 2:
+console.log(
+    reduce2([1, 2, 3, 4], fn2, 100) 
 ); //130
