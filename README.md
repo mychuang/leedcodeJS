@@ -11,3 +11,5 @@
 ## Day 5: 2634. Filter Elements from Array
 
 ## Day 6: 2626. Array Reduce Transformation
+
+## Day 7: 2629. Function Composition
