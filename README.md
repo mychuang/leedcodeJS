@@ -142,3 +142,9 @@
 ## Day 6: 2626. Array Reduce Transformation
 
 ## Day 7: 2629. Function Composition
+
+## Day 8: 2666. Allow One Function Call
+
+## Day 9: 2623. Memoize
+
+## Day 10: 2632. Curry
