@@ -1,4 +1,4 @@
-# LeedCode 挑戰 : Filter Elements from Array
+# Basic Array Transforms : Filter Elements from Array
 
 給定一個整數陣列和一個 mapping function  fn, 回傳一個新陣列必須少於或等於傳入的整數陣列
 

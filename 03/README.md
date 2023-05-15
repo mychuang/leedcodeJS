@@ -1,4 +1,4 @@
-# LeedCode 挑戰 : Counter II
+# Closure : Counter II
 
 Write a function createCounter. It should accept an initial integer init. It should return an object with three functions.<br>
 

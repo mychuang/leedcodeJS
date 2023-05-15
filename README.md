@@ -127,7 +127,7 @@
   console.log(f4(3, 4)); // 7
   ```
 
-# leedcodeJS
+# LeedCode 挑戰
 
 ## Day 1: 2667. Create Hello World Function
 
@@ -148,3 +148,5 @@
 ## Day 9: 2623. Memoize
 
 ## Day 10: 2632. Curry
+
+## Day 11: 2621. Sleep

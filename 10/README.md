@@ -1,4 +1,4 @@
-# LeedCode 挑戰 : Curry
+# Function input and Output	 : Curry
 
 Curry function 是一種將接受多個參數的函式轉換為接受單一參數的函式，並回傳一個新函式的技巧。這個新函式可以接受剩餘的參數，或回傳結果，或繼續接受更多參數。
 

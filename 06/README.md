@@ -1,4 +1,4 @@
-# LeedCode 挑戰 : Array Reduce Transformation
+# Basic Array Transforms : Array Reduce Transformation
 
 Given an integer array nums, a reducer function fn, and an initial value init, return a reduced array.<br>
 

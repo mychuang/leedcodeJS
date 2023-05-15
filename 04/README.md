@@ -1,4 +1,4 @@
-# LeedCode 挑戰 : Apply Transform Over Each Element in Array
+# Basic Array Transforms : Apply Transform Over Each Element in Array
 
 給定一個整數陣列和一個 mapping function  fn, 回傳一個新陣列
 

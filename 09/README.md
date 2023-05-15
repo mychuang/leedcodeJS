@@ -1,4 +1,4 @@
-# LeedCode 挑戰 : 2Memoize
+# Function input and Output	: 2Memoize
 
 Given a function fn, return a memoized version of that function.
 
