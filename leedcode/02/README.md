@@ -1,6 +1,6 @@
 # Closure : Counter
 
-Given an integer n, return a counter function. This counter function initially returns n and then returns 1 more than the previous value every subsequent time it is called (n, n + 1, n + 2, etc).
+設計一個 function , 接收一個整數n, 並回傳內部函式: counter function. 內部函式會對傳入的整數n做累加
 
 ```javascript
 var createCounter = function(n) {
@@ -16,8 +16,3 @@ var createCounter = function(n) {
  * counter() // 12
  */
 ```
-
-需要的功能, 必須符合以下情境: 
-
-1. Input: n = 10, Output: [10,11,12]
-2. Input: n = -2, Output: [-2,-1,0,1,2]

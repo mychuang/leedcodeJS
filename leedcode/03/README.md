@@ -1,6 +1,6 @@
 # Closure : Counter II
 
-Write a function createCounter. It should accept an initial integer init. It should return an object with three functions.<br>
+類似 Counter I 題目, 此時需要設置三個內部函式
 
 The three functions are:<br>
 
