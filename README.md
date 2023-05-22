@@ -8,7 +8,13 @@
 
   - 案例 Day 1 - Day 3
 
-- test
+- Callback function
+
+  - Javascript 範例: trial2.js
+
+  - Typescript 範例: trial2.ts
+
+  - 案例 Day 4 - Day 6
 
 # LeedCode 挑戰
 
