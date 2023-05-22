@@ -1,6 +1,6 @@
 # Basic Array Transforms : Apply Transform Over Each Element in Array
 
-給定一個整數陣列和一個 mapping function  fn, 回傳一個新陣列
+設置一個函式, 可接收一個整數陣列和一個callback function,  回傳一個新陣列
 
 - The returned array should be created such that returnedArray[i] = fn(arr[i], i).
 

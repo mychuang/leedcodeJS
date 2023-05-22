@@ -10,13 +10,9 @@ var filter = function(arr, fn) {
     return res;
 };
 
-var fn1 = function greaterThan10(n) { 
+console.log(filter([0,10,20,30], function(n){
     return n > 10; 
-}
-
-var fn2 = function firstIndex(n, i) { 
-    return i === 0; 
-}
-
-console.log(filter([0,10,20,30], fn1));
-console.log(filter([1, 2, 3], fn2));
+})); //[ 20, 30 ]
+console.log(filter([1, 2, 3], function(n, i){
+    return i === 0;
+})); //[1]
