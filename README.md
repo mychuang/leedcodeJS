@@ -8,13 +8,21 @@
 
   - 案例 Day 1 - Day 3
 
-- Callback function
+- Basic Array Transforms
 
   - Javascript 範例: trial2.js
 
   - Typescript 範例: trial2.ts
 
   - 案例 Day 4 - Day 6
+
+- Function input and Output
+
+  - Javascript 範例: trial3.js
+
+  - Typescript 範例: trial3.ts
+
+  - 案例 Day 7 - Day 9
 
 # LeedCode 挑戰
 

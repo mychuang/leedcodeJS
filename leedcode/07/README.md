@@ -1,6 +1,6 @@
 # Function input and Output	 : Function Composition
 
-Given an array of functions [f1, f2, f3, ..., fn], return a new function fn that is the function composition of the array of functions.<br>
+創建一個函式物件陣列[f1, f2, f3, ..., fn], 傳入compose函式, 將函式物件陣列由右至左依序運算, 每一次運算的值, 傳給下一個函式, 最後回傳 Function Composition 運算結果<br>
 
 The function composition of **[f(x), g(x), h(x)]** is **fn(x) = f(g(h(x)))**.
 
