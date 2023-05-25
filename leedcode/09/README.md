@@ -1,6 +1,6 @@
-# Function input and Output	: 2Memoize
+# Function input and Output	: Memoize
 
-Given a function fn, return a memoized version of that function.
+設計一個記憶函式
 
 A memoized function is a function that will never be called twice with the same inputs. Instead it will return a cached value.
 
