@@ -22,7 +22,20 @@
 
   - Typescript 範例: trial3.ts
 
-  - 案例 Day 7 - Day 9
+  - 案例 Day 7 - Day 10
+
+- Promise
+
+  - 案例 Day 11 - Day 13
+
+- Time (setTimeout)
+
+  - 案例 Day 14 - Day 16
+
+- JSON / Recursion / Important Utilities
+  
+  - 案例 Day 17 - Day 21
+
 
 # LeedCode 挑戰
 
