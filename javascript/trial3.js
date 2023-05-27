@@ -91,3 +91,30 @@ console.log(memoizedAdd(5, 2)); // call count: 1; 7
 console.log(memoizedAdd(5, 2)); // call count: 1; 7
 console.log(memoizedAdd(5, 2)); // call count: 1; 7
 
+/* Currying
+ * 將一個接受 n 個參數的 function，轉變成 n 個只接受一個參數的 function
+ * 白話文: 本來f(a, b, c ...) 改成 f1(a), f(b), f(c) ..., 
+ * 這些 function 會形成一個鏈（chain），待最後參數傳入，完成運算。
+ */
+// 假設如下function
+function multiply(x, y){
+    return x * y;
+}
+console.log(multiply(3, 5)); // 15
+
+// Currying
+function curriedMultiply(x) {
+    return function(y) {
+      return x * y;
+    }
+}
+var multipleOfThreeAndNumberY = curriedMultiply(3);
+
+console.log(multipleOfThreeAndNumberY(5)); // 3*5 = 15
+console.log(multipleOfThreeAndNumberY(10)); // 3*10 = 30
+
+// curriedMultiply 並沒有計算結果，而是回傳一個 function 作為未來計算結果之用
+// multiply(x, y) 等於 curriedMultiply(x)(y)
+console.log(curriedMultiply(3)(5)) //15
+
+
