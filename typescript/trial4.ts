@@ -18,7 +18,7 @@ console.log('其他任務');
 // 由於setTimeout需要等待, 所以先執行了console.log('其他任務');
 
 // 自製 Callback function 
-function doSomething(callback) {
+function doSomething(callback: ()=>void) {
     
     setTimeout(function () {
         console.log("Do somthing");
@@ -33,25 +33,24 @@ function successCallback() {
 
 doSomething(successCallback);
 
-
 /* callback hell
  * 當使用多個callback function, 會變得難以維護
 */
-function asyncFunction1(callback) {
+function asyncFunction1(callback: ()=>void) {
     setTimeout(function () {
         console.log("Async Function 1");
         callback();
     }, 1000);
 }
 
-function asyncFunction2(callback) {
+function asyncFunction2(callback: ()=>void) {
     setTimeout(function () {
         console.log("Async Function 2");
         callback();
     }, 1000);
 }
 
-function asyncFunction3(callback) {
+function asyncFunction3(callback: ()=>void) {
     setTimeout(function () {
         console.log("Async Function 3");
         callback();
@@ -77,7 +76,7 @@ asyncFunction1(function () {
 */
 
 let send2port = false;
-let p = new Promise(function (resolve, reject) {
+let p = new Promise<void>(function (resolve, reject) {
     if (send2port) {
         console.log('send to airport');
         resolve();
@@ -120,14 +119,14 @@ function PromiseFunction1() {
         setTimeout(function () {
             console.log("Promise Function 1");
             // 如果要觸發錯誤，可以调用 reject
-             reject(new Error("Error in Promise Function 1"));
+            reject(new Error("Error in Promise Function 1"));
             // resolve();
         }, 1000);
     });
 }
 
 function PromiseFunction2() {
-    return new Promise(function (resolve, reject) {
+    return new Promise<void>(function (resolve, reject) {
         setTimeout(function () {
             console.log("Promise Function 2");
             resolve();
@@ -136,7 +135,7 @@ function PromiseFunction2() {
 }
 
 function PromiseFunction3() {
-    return new Promise(function (resolve, reject) {
+    return new Promise<void>(function (resolve, reject) {
         setTimeout(function() {
             console.log("Async Function 3");
             // 模擬一個錯誤
@@ -158,4 +157,3 @@ PromiseFunction1()
     .catch(function (error) {
         console.error("Error:", error);
     });
-
